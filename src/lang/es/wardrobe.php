@@ -17,7 +17,7 @@ return array(
   'post_scheduled' => 'Programar',
   'post_publish_date' => 'Fecha de publicación',
   'post_publish_date_set' => 'Definir',
-  'post_publish' => 'Publish Post',
+  'post_publish' => 'Publicar',
   'post_save' => 'Guardar Post',
   'post_preview' => 'Vista Previa',
   'post_expand' => 'Expandir opciones',
