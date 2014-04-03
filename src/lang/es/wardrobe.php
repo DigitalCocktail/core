@@ -6,7 +6,7 @@ return array(
   'posts' => 'Posts',
   'accounts' => 'Accounts',
   'logout' => 'Logout',
-  'login' => 'Login',
+  'login' => 'Iniciar Sesión',
 
   // Posts
   'post_title' => 'Title',
