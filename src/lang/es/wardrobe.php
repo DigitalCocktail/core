@@ -2,28 +2,28 @@
 return array(
 
   // Header
-  'write' => 'Write',
+  'write' => 'Escribir',
   'posts' => 'Posts',
-  'accounts' => 'Accounts',
-  'logout' => 'Logout',
+  'accounts' => 'Cuentas',
+  'logout' => 'Salir',
   'login' => 'Iniciar Sesión',
 
   // Posts
-  'post_title' => 'Title',
+  'post_title' => 'Título',
   'post_slug' => 'URI Slug',
-  'post_author' => 'Author',
-  'post_content' => 'Content Goes Here...',
+  'post_author' => 'Autor',
+  'post_content' => 'El contenido va aquí...',
   'post_tags' => 'Tags',
-  'post_scheduled' => 'Scheduled',
-  'post_publish_date' => 'Publish Date',
-  'post_publish_date_set' => 'Set',
+  'post_scheduled' => 'Programar',
+  'post_publish_date' => 'Fecha de publicación',
+  'post_publish_date_set' => 'Definir',
   'post_publish' => 'Publish Post',
-  'post_save' => 'Save Post',
-  'post_preview' => 'Preview',
-  'post_expand' => 'Expand for options',
-  'post_success' => 'Success!',
-  'post_saved' => 'Post was successfully saved',
-  'post_errors' => '<strong>Error</strong> Please fix the following errors',
+  'post_save' => 'Guardar Post',
+  'post_preview' => 'Vista Previa',
+  'post_expand' => 'Expandir opciones',
+  'post_success' => '¡Éxito!',
+  'post_saved' => 'El Post fue guardado correctamente',
+  'post_errors' => '<strong>Error</strong> Por favor corrija los siguientes errores',
   'post_more_added' => '<strong>Error</strong> You have already inserted a \"more\" anchor',
 
   // Post List
@@ -52,19 +52,19 @@ return array(
   // Login
   'login_email' => 'Email',
   'login_password' => 'Password',
-  'login_remember' => 'Remember me',
-  'login_sign_in' => 'Sign in',
-  'login_incorrect' => 'Your email or password is incorrect.',
-  'login_forgot' => 'Forgot password?',
+  'login_remember' => 'Recordarme',
+  'login_sign_in' => 'Ingresar',
+  'login_incorrect' => 'Email o Password incorrectos.',
+  'login_forgot' => '¿Ha olvidado su Password?',
 
   // Forgot Password
-  'forgot_password' => 'Forgot Password',
-  'forgot_sent' => 'An e-mail with the password reset has been sent.',
-  'forgot_send' => 'Send reset email',
-  'forgot_pass_reset' => 'Password Reset',
-  'forgot_pass_reset_send' => 'Send reset email',
+  'forgot_password' => 'Password Olvidado',
+  'forgot_sent' => 'Se ha enviado un Email para reestablecer su password.',
+  'forgot_send' => 'Enviar Email para reestablecer',
+  'forgot_pass_reset' => 'Reestablecer Password',
+  'forgot_pass_reset_send' => 'Enviar Email para reestablecer',
 
   // Errors
   'error' => 'Error!',
-  'error_fivehundred' => 'A server error occurred.'
+  'error_fivehundred' => 'Ha ocurrido un error en el servidor.'
 );
