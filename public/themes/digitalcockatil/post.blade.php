@@ -1,7 +1,11 @@
 @extends(theme_view('layout'))
 
+@section('description')
+{{ trim(substr($post->content, 0, 156)) }}
+@stop
+
 @section('title')
-	{{ $post->title }}
+{{ $post->title }}
 @stop
 
 @section('content')
