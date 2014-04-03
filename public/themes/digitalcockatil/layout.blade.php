@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="@yield('description')"/>
 		<title>@yield('title')</title>
 		<link href='//fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
 		<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
