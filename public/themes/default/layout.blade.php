@@ -9,7 +9,7 @@
 	<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
 </head>
 <body>
-@include("inc.facebookcomments")
+@include("inc/facebookcomments")
 	<div class="container">
 		<header>
 			<h1><a href="{{ Wardrobe::route('/') }}">{{ site_title() }}</a></h1>
