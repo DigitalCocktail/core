@@ -1,7 +1,11 @@
 @extends(theme_view('layout'))
 
+@section('description')
+{{ trim(substr($post->content, 0, 156)) }}
+@stop
+
 @section('title')
-	{{ $post->title }}
+{{ $post->title }}
 @stop
 
 @section('content')
@@ -12,5 +16,6 @@
 
 		@include(theme_view('inc.tags'))
 	</section>
+	<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>	
 @stop
 
