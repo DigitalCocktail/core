@@ -16,5 +16,6 @@
 
 		@include(theme_view('inc.tags'))
 	</section>
+	<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>	
 @stop
 
