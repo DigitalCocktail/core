@@ -14,6 +14,6 @@
 			<p><span>Por</span>{{ $post->user->first_name }} {{ $post->user->last_name }}</p>
 		</div>
 		<div class="comentarios">5</div>
-		<div class="leer-mas-articulos"><a href="#" class="btn-leer-mas">Leer más</a></div>
+		<div class="leer-mas-articulos"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
 	</footer>
 </article><!-- Fin artículo -->
