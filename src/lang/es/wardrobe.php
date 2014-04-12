@@ -14,7 +14,7 @@ return array(
   'post_author' => 'Autor',
   'post_content' => 'El contenido va aquí...',
   'post_tags' => 'Tags',
-  'post_scheduled' => 'Programar',
+  'post_scheduled' => 'Publicado',
   'post_publish_date' => 'Fecha de publicación',
   'post_publish_date_set' => 'Definir',
   'post_publish' => 'Publicar',
