@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="@yield('description')"/>
+	<meta charset="UTF-8">
 	<title>@yield('title')</title>
-	<link href='//fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
-	<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 @include(theme_view("inc.facebookcomments"))
-	<div class="container">
-		<header>
-			<h1><a href="{{ Wardrobe::route('/') }}">{{ site_title() }}</a></h1>
-			<nav>
-				<ul>
-					<li><a href="{{ Wardrobe::route('posts.archive') }}">Posts</a></li>
-					<li><a href="{{ Wardrobe::route('posts.rss') }}">RSS</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div class="content">
-			@yield('content')
-		</div>
-		<footer>
-			<p>Powered by <a href="http://wardrobecms.com">Wardrobe</a></p>
-		</footer>
-	</div>
+@include("templates/default/partials/header")
+
+	<section class="blog">
+		<aside class="aside-blog">
+			<div class="buscador-aside">
+				<form role="formulario">
+					<input type="text" id="buscador-aside">	
+					<button type="submit">Buscar</button>				
+				</form>
+			</div>
+			<div class="etiquetas-aside">
+				<h3>Etiquetas</h3>
+				<a href="#" class="etiqueta">web</a>
+				<a href="#" class="etiqueta">web</a>
+				<a href="#" class="etiqueta">web</a>
+			</div>
+			<div class="suscribete-aside">
+				<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
+				<label for="mail-suscripcion"><input type="checkbox">Antes de suscribirte debes estar de acuerdo con nuestra <a href="#">Política de manejo de datos</a></label>
+				<input type="mail" id="mail-suscripcion" placeholder="Ingresa tu correo">
+				<button type="submit">Evniar</button>
+			</div>
+		</aside><!-- Fin del aside -->
+		@yield('content')
+		<div class="ver-mas-blog">
+			<a href="#" class="btn-ver-mas-blog">Ver más articulos</a>
+		</div><!-- Fin botón Ver más artículos -->
+	</section><!-- Fin del contenedor de los articulos - blog -->
+
+@include("templates/default/partials/footer")
 </body>
 </html>
