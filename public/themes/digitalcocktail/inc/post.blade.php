@@ -1,6 +1,6 @@
 <article>
 	<header>
-		<h1><a href="{{ Wardrobe::route('posts.show', $post->slug) }}">{{ $post->title }}</a></h1>
+		<h1><a href="{{ url('blog/'.$post->slug) }}">{{ $post->title }}</a></h1>
 	</header>
 	<figure><img src="" alt=""></figure>
 	{{ $post->parsed_intro }}
